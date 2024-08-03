@@ -1,0 +1,49 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+a {
+    color: #1e88e5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    padding: 0 24px;
+}
+
+/* MUI Override Styles */
+.MuiAppBar-root {
+    box-shadow: none;
+}
+
+.MuiToolbar-root {
+    padding: 0 24px;
+}
+
+.MuiTypography-h6 {
+    font-weight: 600;
+}
+
+.MuiTypography-body2 {
+    color: #333;
+}
